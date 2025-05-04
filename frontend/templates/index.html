@@ -1,0 +1,28 @@
+<!-- frontend/templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tracking System Interface</title>
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+</head>
+<body>
+    <h1>Welcome to the Tracking System</h1>
+    
+    <section id="chat-section">
+        <h2>Chatbot</h2>
+        <input type="text" id="chat-input" placeholder="Type your message">
+        <button id="send-btn">Send</button>
+        <div id="chat-output"></div>
+    </section>
+    
+    <section id="tracking-section">
+        <h2>Realtime Tracking</h2>
+        <p>Check console for realtime updates via WebSocket.</p>
+        <button id="get-map-btn">Get Map</button>
+        <div id="map-container"></div>
+    </section>
+
+    <script src="/static/scripts.js"></script>
+</body>
+</html>

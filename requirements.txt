@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+supabase-py
+folium
+phonenumbers
+opencage
+nltk
+requests
+regex
