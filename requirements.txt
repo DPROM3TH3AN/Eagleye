@@ -1,7 +1,7 @@
 fastapi
 uvicorn
 pydantic
-supabase-py
+supabase-py==0.0.2
 folium
 phonenumbers
 opencage
